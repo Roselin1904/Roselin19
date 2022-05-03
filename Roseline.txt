@@ -1,0 +1,10 @@
+
+> library(readxl)
+> datafile_2_ <- read_excel("C:/Users/fedri/Downloads/datafile (2).xls")
+> View(datafile_2_)
+> roseline<- read_excel("C:/Users/fedri/Downloads/datafile (2).xls")
+> mean(roseline$max_price)
+[1] 2065.807
+> sd(roseline$modal_price)
+[1] 934.1961
+> 
